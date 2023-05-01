@@ -1,0 +1,1 @@
+cl.exe main.cpp /I .. /W4 /O1 /Os /GS- /wd4819 /wd4530 /wd4238  /link kernel32.lib user32.lib d3d12.lib dxgi.lib d3dcompiler.lib winmm.lib
